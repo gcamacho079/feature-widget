@@ -1,151 +1,52 @@
-/***********
- Typography
- ***********/
-
-html {font-size: 16px }
-p, li {
-	font-size: 1rem ;
-    line-height: 2rem ;
-  }
-h1 {
-	font-size: 2rem ;
-    line-height: 3rem ;}
-h2 {
-	font-size: 1.625rem ;
-    line-height: 2.2rem ;}
-h3 {
-	font-size: 1.375rem ;
-	line-height: 2.0rem ;
-    }
-h4 {font-size: 1.125rem ;}
-
-/** Large Screen Size Typography **/
-@media only screen and (min-width: 1600px) {
-p, li {
-	font-size: 1.05rem ;
-    line-height: 2.1rem ;
-    }
+.features-tabs {
+	text-align: center;
+	margin-bottom: .5em;
 }
 
-.callout-text {
-	font-size: 1.3rem;
-    font-weight: 700;
+.features-tabs__icon {
+	padding: .3em;
 }
 
-.section__heading {
-margin-bottom: .8em;
-color: #2B618E;
-text-align: left;
+.features-tabs__icon .fa-circle {
+	color: #49D49D;
 }
 
-.section__heading--precol
-{
-padding-left: 15px;
-margin-bottom: .8em;
-color: #2B618E;
-text-align: left;
+.features {
+	height: 800px;
+	background-color: #f2f2f2;
+	box-shadow: 0 2px 6px .3px rgba(0, 0, 0, .3);
 }
 
-/**********
- Page Layout
- **********/
-
-.section {
-padding: 2em 0 4em;
+.features__left,
+.features__right {
+	height: 400px;
 }
 
-.alt-bg {
-  background-color: #eef1f4;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+.features__left {
+	background-color: #2EAEBD;
 }
 
-.alt-bg__wrapper {
-  margin-top: 2em;
-  margin-bottom: 2em;
+@media screen and (min-width: 720px) {
 
-}
+	.fusion-container {
+		padding: 0 10%;
+		margin-top: 25vh;
+	}
 
-.section__wrapper {
-margin: 0 auto;
-width: 93%;
-}
+	.features {
+		height: 400px;
+	}
 
-@media screen and (min-width: 768px) {
-  .section__wrapper {
-    width: 750px;
-  }
-}
+	.features__left,
+	.features__right {
+		width: 50%;
+	}
 
-@media screen and (min-width: 992px) {
-  .section__wrapper {
-    width: 970px;
-  }
-}
+	.features__left {
+		float: left;
+	}
 
-@media screen and (min-width: 1200px) {
-  .section__wrapper {
-    width: 1160px;
-  }
-}
-
-/************************
-End copy from body design
-*************************/
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-section {
-  padding: 1.3em 0;
-}
-
-.tools__icon {
-  margin: .5em 0;
-  font-size: 4em;
-}
-
-.itp-image {
-  display: block !important;
-  margin: 0 auto !important;
-}
-
-.itp-checklist li {
-  margin-bottom: 1em;
-}
-
-
-h1,
-h2,
-h3 {
-  font-weight: 700;
-  text-align: center;
-}
-
-h1,
-h2 {
-  color: #3F88C5;
-}
-
-
-#customer-pic {
-  width: 80%;
-  max-width: 400px;
-}
-
-.itp-checklist li i {
-  color: #5cb85c;
-}
-
-
-@media screen and (min-width: 992px) {
-  .vertical-align {
-    display:flex;
-    align-items: center;
-  }
+	.features__right {
+		float: right;
+	}
 }
