@@ -1,0 +1,151 @@
+/***********
+ Typography
+ ***********/
+
+html {font-size: 16px }
+p, li {
+	font-size: 1rem ;
+    line-height: 2rem ;
+  }
+h1 {
+	font-size: 2rem ;
+    line-height: 3rem ;}
+h2 {
+	font-size: 1.625rem ;
+    line-height: 2.2rem ;}
+h3 {
+	font-size: 1.375rem ;
+	line-height: 2.0rem ;
+    }
+h4 {font-size: 1.125rem ;}
+
+/** Large Screen Size Typography **/
+@media only screen and (min-width: 1600px) {
+p, li {
+	font-size: 1.05rem ;
+    line-height: 2.1rem ;
+    }
+}
+
+.callout-text {
+	font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.section__heading {
+margin-bottom: .8em;
+color: #2B618E;
+text-align: left;
+}
+
+.section__heading--precol
+{
+padding-left: 15px;
+margin-bottom: .8em;
+color: #2B618E;
+text-align: left;
+}
+
+/**********
+ Page Layout
+ **********/
+
+.section {
+padding: 2em 0 4em;
+}
+
+.alt-bg {
+  background-color: #eef1f4;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.alt-bg__wrapper {
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+
+.section__wrapper {
+margin: 0 auto;
+width: 93%;
+}
+
+@media screen and (min-width: 768px) {
+  .section__wrapper {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section__wrapper {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section__wrapper {
+    width: 1160px;
+  }
+}
+
+/************************
+End copy from body design
+*************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  padding: 1.3em 0;
+}
+
+.tools__icon {
+  margin: .5em 0;
+  font-size: 4em;
+}
+
+.itp-image {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.itp-checklist li {
+  margin-bottom: 1em;
+}
+
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #3F88C5;
+}
+
+
+#customer-pic {
+  width: 80%;
+  max-width: 400px;
+}
+
+.itp-checklist li i {
+  color: #5cb85c;
+}
+
+
+@media screen and (min-width: 992px) {
+  .vertical-align {
+    display:flex;
+    align-items: center;
+  }
+}
