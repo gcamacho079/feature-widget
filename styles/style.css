@@ -1,3 +1,7 @@
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
 .features-tabs {
 	text-align: center;
 	margin-bottom: .5em;
@@ -30,13 +34,18 @@
 }
 
 .features__left {
-	background-color: #2EAEBD;
+	background-image: url("../images/sample-screenshot.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-@media screen and (min-width: 720px) {
+.features__content {
+	margin: 10%;
+}
+
+@media screen and (min-width: 770px) {
 
 	.fusion-container {
-		padding: 0 10%;
 		margin-top: 25vh;
 	}
 
@@ -55,5 +64,15 @@
 
 	.features__right {
 		float: right;
+	}
+
+	.features__content {
+		margin: 10%;
+	}
+}
+
+@media screen and (min-width: 950px) {
+	.fusion-container {
+		padding: 0 10%;
 	}
 }
