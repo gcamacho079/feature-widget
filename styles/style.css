@@ -40,7 +40,12 @@ body {
 }
 
 .features__content {
+	display: none;
 	margin: 10%;
+}
+
+.features__content--active {
+	display: block;
 }
 
 @media screen and (min-width: 770px) {
