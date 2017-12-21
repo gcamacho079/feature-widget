@@ -2,6 +2,11 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+.fusion-container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .features-tabs {
 	text-align: center;
 	margin-bottom: .5em;
@@ -14,7 +19,6 @@ body {
 }
 
 .features-tabs__icon {
-	padding: .3em;
 	font-size: 32px;
 }
 
@@ -41,7 +45,7 @@ body {
 
 .features__content {
 	display: none;
-	margin: 10%;
+	margin: 32px;
 }
 
 .features__content--active {
@@ -71,13 +75,25 @@ body {
 		float: right;
 	}
 
-	.features__content {
-		margin: 10%;
+}
+
+@media screen and (min-width: 1020px) {
+	.tablinks {
+		padding-left: 10.25px;
+		padding-right: 10.25px;
 	}
 }
 
-@media screen and (min-width: 950px) {
-	.fusion-container {
-		padding: 0 10%;
+@media screen and (min-width: 1200px) {
+	.tablinks {
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+}
+
+@media screen and (min-width: 1390px) {
+	.tablinks {
+		padding-left: 24px;
+		padding-right: 24px;
 	}
 }
